@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-scrolling Containers</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <script src="scrolling.js"></script>
+    <div id="container0" class="container">
+        <h1>Digital Exhibition</h1>
+        <br/>
+        <h3>Feel the aura.</h3>
+<!--        Add Uni Vie Logo -->
+    </div>
+
+    <div id="container1" class="container hidden">
+        <h3>Listen to this audio and close your eyes. What do you see?</h3>
+        <audio controls class="center">
+            <source src="data/slot_1.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+
+    </div>
+
+    <div id="container2" class="container hidden">
+        <h3>When you look at this image, what do you hear?</h3>
+        <img src="data/slot_2.png" alt="Noise" width="50%" class="image">
+    </div>
+
+    <div id="container3" class="container hidden">
+        <h3>Follow the Link and look at the GIF, how do you feel?</h3>
+        <img src="data/slot_3.gif" alt="GIF" width="50%" class="image">
+    </div>
+
+    <div id="container4" class="container hidden">
+        <h2>Walter Benjamin</h2>
+        <img src="data/slot_4.png" alt="Walter Benjamin" class="image">
+        <p>Walter Benjamin is one of the most significant cultural theorists and philosophers of media and technology.
+            In his lifetime (1892 - 1940) he witnessed an astonishing amount of new inventions. What would you say are
+            the most important technological developments in the time from 1880 to 1940?</p>
+        <p>Here are some inspirations. Follow the
+            <a href="https://en.wikipedia.org/wiki/Timeline_of_historic_inventions">Link</a>!</p>
+
+        <h3>Write your two most important inventions on post-its.<h3>
+    </div>
+
+    <div id="container5" class="container hidden">
+        <h2>Artwork-Essay</h2>
+        <img src="data/slot_5.png" alt="Artwork-Essay" width="50%" class="image">
+    </div>
+
+    <div id="container6" class="container hidden">
+        <h2>Artwork-Essay</h2>
+        <p>“Around 1900, technological reproduction not only had reached a standard that permitted it to reproduce all known world of art, profoundly modifying their effect, but it also had captured a place of its own among the artistic processes. In gauging this standard, we would do well to study the impact which its two different manifestations-the reproduction of artworks and the art of film-are having on art in its traditional form.“
+        (Artwork-Essay)
+        </p>
+        <h3>What is the Difference between these two media experiences/artworks?</h3>
+        <img src="data/slot_6.jpg" width="50%" class="image">
+<!--        <img src="data/slot_6_original.png" alt="Original" width="50%" class="image">-->
+<!--        <img src="data/slot_6_copy.png" alt="Copy" width="50%" class="image">-->
+<!--        <p>Write a comment!</p> TODO-->
+    </div>
+
+    <div id="container7" class="container hidden">
+        <h2>Trains</h2>
+        <p>“The function of film is to train human beings in the perception and reactions needed to deal with a vast apparatus whose role in their lives is expanding almost daily.” (Artwork-Essay)</p>
+        <video controls autoplay width="50%" class="center">
+            <source src="https://ia601704.us.archive.org/1/items/11-arrival-of-a-train-at-la-ciotat/11%20Arrival%20of%20a%20train%20at%20La%20Ciotat.mp4" type="video/mp4">
+<!--            <source src="data/slot_7.mp4" type="video/mp4">-->
+            Your browser does not support the video tag.
+        </video>
+        <p><a href="https://homepage.univie.ac.at/arndt.niebisch/memorygame/">Roll a dice!</a></p>
+    </div>
+</body>
+</html>
